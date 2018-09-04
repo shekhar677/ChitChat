@@ -3,10 +3,10 @@ const socket = require('socket.io');
 
 const app = express();
 
-app.set('port', (process.env.PORT || 4000));
+const port = process.env.PORT || 4000;
 
-const server = app.listen(app.get('port'), () => {
-  console.log('listening on port ', app.get('port'));
+const server = app.listen(port, () => {
+  console.log('listening on port ', port);
 });
 
 // static files
