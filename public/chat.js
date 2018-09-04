@@ -1,5 +1,5 @@
 // make connection
-const port = process.env.PORT || 4000;
+// const port = process.env.PORT || 4000;
 var socket = io.connect('https://chit-chat-box.herokuapp.com/');
 
 // query dom
