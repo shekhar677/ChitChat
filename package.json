@@ -1,5 +1,5 @@
 {
-  "name": "ChatApp",
+  "name": "ChitChat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,13 @@
     "start": "node index.js"
   },
   "keywords": [],
+  "engines": {
+    "node": "8.11.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shekhar677/ChitChat"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

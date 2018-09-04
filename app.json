@@ -1,0 +1,5 @@
+{
+  "name": "Chat App",
+  "description": "Chat App using socket.io",
+  "repository": "https://github.com/shekhar677/ChitChat"
+}
