@@ -1,5 +1,6 @@
 // make connection
 // const port = process.env.PORT || 4000;
+// heroku port: https://chit-chat-box.herokuapp.com/
 var socket = io.connect('https://chit-chat-box.herokuapp.com/');
 
 // query dom
@@ -26,6 +27,7 @@ message.addEventListener('keypress', function() {
 socket.on('chat', function(data) {
   feedback.innerHTML = "";
   output.innerHTML += '<p class="none"><strong>'+ data.handle +': </strong>'+ data.message +'</p>';
+  message.value = "";
 });
 
 socket.on('typing', function(data) {
