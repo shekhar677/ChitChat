@@ -11,13 +11,20 @@
 </head>
 <body>
   <div id="mario-chat">
+    <div class="info" id="info">
+      <p></p>
+    </div>
     <div id="chat-window">
       <div id="output"></div>
       <div id="feedback"></div>
     </div>
-    <input id="handle" type="text" placeholder="Username">
-    <input type="text" id="message" placeholder="Your Message">
-    <button id="send">Send</button>
+    <div class="action">
+      <input id="handle" type="text" placeholder="Username">
+      <div class="msg-btn">
+        <input type="text" id="message" placeholder="Your Message">
+        <svg id="send" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg>
+      </div>
+    </div>
   </div>
 
   <script src="/chat.js"></script>
