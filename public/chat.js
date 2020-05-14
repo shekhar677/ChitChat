@@ -68,7 +68,7 @@ message.addEventListener('keyup', function() {
   }
 });
 
-message.addEventListener('keypress', function() {
+message.addEventListener('keydown', function() {
   socket.emit('typing', handle.value);
 });
 
