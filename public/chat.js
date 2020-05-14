@@ -1,7 +1,7 @@
 // make connection
 // const port = process.env.PORT || 4000;
 // heroku port: https://chit-chat-box.herokuapp.com/
-var socket = io.connect('http://localhost:4000/');
+var socket = io.connect('https://chatapp-677.herokuapp.com');
 
 const debounce = (func, delay) => {
   let debounceTimer
